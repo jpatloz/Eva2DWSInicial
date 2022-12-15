@@ -1,0 +1,53 @@
+﻿@model IEnumerable<EvaTchNotasEvaluacion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Crear</a>
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MdFch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NotaEvaluacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodEvaluacionNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MdUuid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MdFch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodAlumno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotaEvaluacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodEvaluacionNavigation.CodEvaluacion)
+            </td>
+            <td>|
+                <a asp-action="Details" asp-route-id="@item.IdNotaEvaluacion">Detalles</a> |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

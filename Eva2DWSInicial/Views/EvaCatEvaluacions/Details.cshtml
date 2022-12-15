@@ -1,0 +1,30 @@
+﻿@model Views.EvaCatEvaluacion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!-- Ventana del despliegue de los detalles-->
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>EvaCatEvaluacion</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DescEvaluacion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DescEvaluacion)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EvaTchNotasEvaluacions)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EvaTchNotasEvaluacions)
+        </dd>
+    </dl>
+</div>

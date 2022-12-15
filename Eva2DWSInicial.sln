@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eva2DWSInicial", "Eva2DWSInicial\Eva2DWSInicial.csproj", "{5BB4B47B-01E4-4DBB-94DA-7C58F6EABACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{00952182-78F6-4036-B8E9-85F40CD76783}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BB4B47B-01E4-4DBB-94DA-7C58F6EABACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB4B47B-01E4-4DBB-94DA-7C58F6EABACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB4B47B-01E4-4DBB-94DA-7C58F6EABACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB4B47B-01E4-4DBB-94DA-7C58F6EABACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00952182-78F6-4036-B8E9-85F40CD76783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00952182-78F6-4036-B8E9-85F40CD76783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00952182-78F6-4036-B8E9-85F40CD76783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00952182-78F6-4036-B8E9-85F40CD76783}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23BA7B24-4B06-4C73-8795-1637388495D6}
+	EndGlobalSection
+EndGlobal
